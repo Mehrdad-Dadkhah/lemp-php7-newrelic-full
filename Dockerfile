@@ -1,4 +1,4 @@
-FROM mehrdadkhah/lemp-php7-full:latest
+FROM mehrdadkhah/lemp-php7-full:ffmpeg
 
 MAINTAINER Mehrdad Dadkhah <mehrdad@dadkhah.me>
 
