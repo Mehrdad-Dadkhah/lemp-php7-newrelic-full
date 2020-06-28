@@ -8,7 +8,7 @@ RUN chmod +x /newrelicRun.sh
 
 # Install New Relic daemon
 RUN apt-get update && \
-    apt-get -yq install
+    apt-get -yq install \
     gnupg2 \
     wget && \
     wget -O - https://download.newrelic.com/548C16BF.gpg | apt-key add - && \
